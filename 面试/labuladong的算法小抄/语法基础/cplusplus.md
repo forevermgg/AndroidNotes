@@ -19,5 +19,6 @@ queue<int> q;
 queue<string> q;
 ### 返回队列是否为空
 bool empty();
-### 返回队列中的元素
+### 返回队列中的元素个数
+size_type size();
 
