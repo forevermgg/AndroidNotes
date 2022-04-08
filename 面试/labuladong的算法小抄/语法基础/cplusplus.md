@@ -21,4 +21,4 @@ queue<string> q;
 bool empty();
 ### 返回队列中的元素个数
 size_type size();
-
+### 将元素加入队尾
