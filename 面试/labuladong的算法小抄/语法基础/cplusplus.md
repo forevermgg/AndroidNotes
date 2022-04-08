@@ -25,3 +25,5 @@ size_type size();
 void push(const value_type& val);
 ### 返回队头的元素引用
 value_type& front();
+### 删除对头元素
+void pop();
