@@ -16,4 +16,8 @@ void pop();
 ## 队列queue
 ### 初始化方法
 queue<int> q;
-que
+queue<string> q;
+### 返回队列是否为空
+bool empty();
+### 返回队列中的元素
+
