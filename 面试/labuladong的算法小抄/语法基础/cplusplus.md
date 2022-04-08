@@ -7,7 +7,7 @@ stack<string> stk;
 bool empty();
 ### 返回堆栈中元素的个数
 size_type size();
-### 在堆栈中添加元素
+### 在堆顶添加元素
 void push(const value_type& val);
 ### 返回栈顶元素的引用
 value_type& top();
