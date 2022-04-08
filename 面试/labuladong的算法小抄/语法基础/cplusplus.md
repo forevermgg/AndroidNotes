@@ -22,3 +22,6 @@ bool empty();
 ### 返回队列中的元素个数
 size_type size();
 ### 将元素加入队尾
+void push(const value_type& val);
+### 返回队头的元素引用
+value_type& front();
