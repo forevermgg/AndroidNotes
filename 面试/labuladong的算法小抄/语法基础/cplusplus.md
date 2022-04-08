@@ -14,4 +14,6 @@ value_type& top();
 ### 删除栈顶的元素
 void pop();
 ## 队列queue
-###
+### 初始化方法
+queue<int> q;
+que
