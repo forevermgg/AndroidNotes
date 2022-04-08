@@ -1,8 +1,10 @@
 # C++ 语法基础
 ## 堆栈stack
 ### 初始化方法
+```
 stack<int> stk;
 stack<string> stk;
+```
 ### 返回堆栈是否为空
 bool empty();
 ### 返回堆栈中元素的个数
@@ -15,8 +17,10 @@ value_type& top();
 void pop();
 ## 队列queue
 ### 初始化方法
+```
 queue<int> q;
 queue<string> q;
+```
 ### 返回队列是否为空
 bool empty();
 ### 返回队列中的元素个数
@@ -27,3 +31,4 @@ void push(const value_type& val);
 value_type& front();
 ### 删除对头元素
 void pop();
+## 哈希集合 unordered_set
